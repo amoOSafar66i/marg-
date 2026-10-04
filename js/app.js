@@ -1,7 +1,7 @@
 
 let fullname = "Amirali";
 
-let age = 15;
+let ageStudent = 15;
 
 let isStudent = true;
 
@@ -29,12 +29,7 @@ let username = prompt("What is your name?");
 let answer = confirm("Do you want to see my information?");
 
 
-alert(
-    "Name: " + fullname +
-    "\nAge: " + age +
-    "\nCity: " + city +
-    "\nFavorite Color: " + favoriteColor
-);
+
 
 let age = 15;
 
