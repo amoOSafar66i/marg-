@@ -26,15 +26,22 @@ let username = prompt("What is your name?");
 
 
 
-let answer = confirm("Do you want to see my information?");
+let answer = confirm(".............................................");
 
 
 
 
 let age = 15;
 
-if (age >= 18) {
-  console.log("شما بزرگسال هستید");
+if (confirm("آیا سن شما 18 سال یا بیشتر است؟")) {
+    if (age > 18) {
+        alert("شما بزرگسال هستید");
+        console.log("سن معتبر است");
+    } else {
+        alert("شما هنوز زیر 18 سال هستید");
+        console.log("سن کمتر از 18 است");
+    }
 } else {
-  console.log("شما هنوز زیر 18 سال هستید");
+    alert("پس سن شما کمتر از 18 سال است");
+    console.log("کاربر گزینه Cancel را زد");
 }
