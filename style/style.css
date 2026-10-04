@@ -355,48 +355,5 @@ footer p {
 }
 
 
-/* Responsive */
 
-@media (max-width: 900px) {
 
-    header {
-        padding: 0 5%;
-    }
-
-    nav {
-        display: none;
-    }
-
-    .hero {
-        flex-direction: column-reverse;
-        text-align: center;
-    }
-
-    .buttons {
-        justify-content: center;
-    }
-
-    .circle {
-        width: 280px;
-        height: 280px;
-    }
-
-    .hero h1 {
-        font-size: 45px;
-    }
-
-    .about-box {
-        flex-direction: column;
-    }
-
-    .skill-container,
-    .project-container {
-        grid-template-columns: 1fr;
-    }
-
-    .contact-box {
-        flex-direction: column;
-        text-align: center;
-        gap: 25px;
-    }
-}
